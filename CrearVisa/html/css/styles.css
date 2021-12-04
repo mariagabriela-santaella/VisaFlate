@@ -1,0 +1,189 @@
+*{ /*mauqetado general*/
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+  body {
+    font-size: 16px;
+    background-color: #bb133e;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+  }
+  /* estilos para el reloj en pantalla*/
+  .wrap{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.widget{
+  width: 80%;
+  margin: 2em;
+  padding: 2em;
+  border: none;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.widget p{
+  display: inline-block;
+  line-height: 1em;
+}
+.fecha{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 0.3125rem;
+  background: rgba(220, 100, 20, .5);
+  padding: 20px;
+  width: 100%;
+}
+.reloj{
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  padding: 20px;
+  font-size: 4em;
+  text-align: center;
+  background: rgba(220, 100, 20, .5);
+}
+.reloj .caja-segundos{
+  display: inline-block;
+}
+.reloj .segundos,
+.reloj .ampm{
+  font-size: 2em;
+  display: block;}
+
+ /* aqui terminan los estilos del reloj y comienzan 
+ los estilos de los input etc*/
+
+    input[type="text"],
+    input[type="email"],
+    input[type="file"],
+    input[type="tel"],
+    input[type="date"],
+    input[type="time"],
+    select,textarea
+    {
+        font-size: 20px;
+        width: 90%;
+        padding: 10px;
+        border: none;
+        outline: none;
+        text-align: center;
+    }
+   
+
+    input[type="submit"]{
+      mariagabriela.santaella@utxicotepec.edu.mx
+        font-size: 20px;
+        width: 60%;
+        padding: 10px;
+        border: none;
+        outline: none;
+        text-align: center;
+    
+    }
+
+    .formulario{
+        background:#002147 ;
+        padding: 80px;
+        margin:auto;
+        width: 700px;
+        margin-top: 3em;
+        border-radius: 0%;
+        outline: none;
+        margin-bottom: 3em;
+        
+      }
+      .form{
+        background:#002147 ;
+        padding: 80px;
+        margin:auto;
+        width: 850px;
+        margin-top: 3em;
+        border-radius: 0%;
+        outline: none;
+        margin-bottom: 3em;
+        
+      }
+      
+      .contenedor, .container{
+        width: 100%;
+        padding: 1px;
+        outline: none;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        text-align: center;
+        border: none;
+        outline: none;
+        font-size: 20px;
+      }
+      
+      label, .foot{
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 22px;
+        size: 10em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+      }
+      
+      b,a{
+        text-align: center;
+        color:#FFFFFF;
+        font-size: 40px;
+        margin-top:auto;
+        margin-bottom: 1em
+      }
+      
+      .title{
+        text-align: center;
+      } 
+    h1{
+      text-align: center;
+        font-size: 60px;
+        color:#FFFFFF;
+    }
+    h2{
+      text-align: center;
+        font-size: 35px;
+        color:#FFFFFF;
+    }
+    .radio{
+      text-align: center;
+      margin-top: 1em;
+      margin-bottom: 1em;
+    }
+    .head{
+      text-align: center;
+      margin-top: 5em;
+      margin-bottom: 3em;
+      color: #FFFFFF;
+    }
+    .input[type="date"]{
+      width: 10px;
+      height: 15px;
+    }
+    footer{
+      color: #FFFFFF;
+    }
+    .header{
+      width: 800px;
+      margin-top: 2em;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .img-center{
+      margin: 10px auto 10px;
+      display: block;
+    }
+    footer {
+      text-align: center;
+      padding: 3px;
+      background-color: DarkSalmon;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+    }
